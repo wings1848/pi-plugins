@@ -1,0 +1,66 @@
+{
+  "name": "pi-plugins",
+  "version": "1.0.0",
+  "description": "wings1848's curated pi coding agent plugin collection - install all plugins with one command",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@agent-sh/computer-use-linux": "0.5.0",
+    "@juicesharp/rpiv-ask-user-question": "2.9.0",
+    "@juicesharp/rpiv-todo": "2.9.0",
+    "@juicesharp/rpiv-web-tools": "2.9.0",
+    "@llblab/pi-telegram": "0.42.2",
+    "@vndv/pi-codegraph": "0.1.10",
+    "@wingsbutterfly/pi-zh": "0.3.1",
+    "pi-cache-optimizer": "2.8.6",
+    "pi-config-sync": "0.2.0",
+    "pi-image-tools": "1.4.0",
+    "pi-mcp-adapter": "2.32.1",
+    "pi-rtk-optimizer": "0.9.0",
+    "pi-subagents": "0.63.0",
+    "pi-tool-display": "0.5.0"
+  },
+  "bundledDependencies": [
+    "@agent-sh/computer-use-linux",
+    "@juicesharp/rpiv-ask-user-question",
+    "@juicesharp/rpiv-todo",
+    "@juicesharp/rpiv-web-tools",
+    "@llblab/pi-telegram",
+    "@vndv/pi-codegraph",
+    "@wingsbutterfly/pi-zh",
+    "pi-cache-optimizer",
+    "pi-config-sync",
+    "pi-image-tools",
+    "pi-mcp-adapter",
+    "pi-rtk-optimizer",
+    "pi-subagents",
+    "pi-tool-display"
+  ],
+  "pi": {
+    "extensions": [
+      "node_modules/pi-rtk-optimizer/index.ts",
+      "node_modules/pi-tool-display/index.ts",
+      "node_modules/pi-image-tools/index.ts",
+      "node_modules/pi-subagents/index.ts",
+      "node_modules/@juicesharp/rpiv-todo/index.ts",
+      "node_modules/@juicesharp/rpiv-ask-user-question/index.ts",
+      "node_modules/@juicesharp/rpiv-web-tools/index.ts",
+      "node_modules/pi-cache-optimizer/index.ts",
+      "node_modules/@vndv/pi-codegraph/extensions",
+      "node_modules/pi-mcp-adapter/index.ts",
+      "node_modules/@llblab/pi-telegram/index.ts",
+      "node_modules/@wingsbutterfly/pi-zh/extensions",
+      "node_modules/@agent-sh/computer-use-linux/pi/extension/index.ts",
+      "node_modules/pi-config-sync/extensions"
+    ],
+    "skills": [
+      "node_modules/pi-subagents/skills",
+      "node_modules/pi-mcp-adapter/skills",
+      "node_modules/@llblab/pi-telegram/skills",
+      "node_modules/@agent-sh/computer-use-linux/skills/computer-use-linux/SKILL.md"
+    ],
+    "prompts": [
+      "node_modules/pi-subagents/prompts"
+    ]
+  }
+}
