@@ -7,12 +7,6 @@ wings1848 的 pi coding agent 插件合集包。
 ## 安装
 
 ```bash
-pi install git:github.com:wings1848/pi-plugins
-```
-
-或者：
-
-```bash
 pi install git:https://github.com/wings1848/pi-plugins.git
 ```
 
