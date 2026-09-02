@@ -21,7 +21,7 @@ pi install git:https://github.com/wings1848/pi-plugins.git
 | pi-tool-display | 工具展示优化 |
 | pi-rtk-optimizer | RTK 上下文优化 |
 | pi-image-tools | 图片处理工具 |
-| pi-cache-optimizer | 缓存优化 |
+| pi-stats-footer | 缓存/成本统计 |
 | @vndv/pi-codegraph | CodeGraph 代码索引 |
 | @juicesharp/rpiv-todo | 任务清单 |
 | @juicesharp/rpiv-ask-user-question | 结构化提问 |
