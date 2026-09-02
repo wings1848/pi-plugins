@@ -16,6 +16,7 @@
     "pi-image-tools": "*",
     "pi-mcp-adapter": "*",
     "pi-rtk-optimizer": "*",
+    "pi-safe-rm": "*",
     "pi-stats-footer": "*",
     "pi-subagents": "*",
     "pi-tool-display": "*"
@@ -32,6 +33,7 @@
     "pi-image-tools",
     "pi-mcp-adapter",
     "pi-rtk-optimizer",
+    "pi-safe-rm",
     "pi-stats-footer",
     "pi-subagents",
     "pi-tool-display"
@@ -39,6 +41,7 @@
   "pi": {
     "extensions": [
       "node_modules/pi-rtk-optimizer/index.ts",
+      "node_modules/pi-safe-rm/index.ts",
       "node_modules/pi-stats-footer/extensions/stats-footer.ts",
       "node_modules/pi-tool-display/index.ts",
       "node_modules/pi-image-tools/index.ts",
