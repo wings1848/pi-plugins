@@ -1,6 +1,6 @@
 {
   "name": "pi-plugins",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "wings1848's curated pi coding agent plugin collection - install all plugins with one command",
   "license": "MIT",
   "type": "module",
@@ -11,7 +11,7 @@
     "@juicesharp/rpiv-web-tools": "2.9.0",
     "@llblab/pi-telegram": "0.42.2",
     "@vndv/pi-codegraph": "0.1.10",
-    "@wingsbutterfly/pi-zh": "0.3.1",
+    "@wingsbutterfly/pi-zh": "0.4.0",
     "pi-cache-optimizer": "2.8.6",
     "pi-config-sync": "0.2.0",
     "pi-image-tools": "1.4.0",
